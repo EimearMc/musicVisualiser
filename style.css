@@ -1,13 +1,27 @@
 
 body {
-    background-color: black;
+    background-color: rgb(2, 22, 77);
+    background-image: url('https://cdn.discordapp.com/attachments/892735201132834846/1052678071364362321/Generator_Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
   
   #file-input {
     position: fixed;
-    top: 10px;
+     top: 10px;
     left: 10px;
-    z-index: 3;
+    z-index: 3; 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 25%;
+    margin-top: 10px;
+    border-radius: 2rem;
+    border: 2px solid #000000;
+    background-color: #1a629c;
+    color: #ffffff;
+    cursor: pointer;
   }
   
   #canvas {
@@ -41,9 +55,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(transparent,#00035f,transparent);
-    background-size: 100% 7px;
-    animation: bg 1s infinite linear;
+    /* background: linear-gradient(transparent,#00035f,transparent);
+    background-size: 100% 7px; */
+    background-image: url('https://cdn.discordapp.com/attachments/892735201132834846/1052678071364362321/Generator_Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* animation: bg 1s infinite linear; */
     z-index: 2;
     opacity: 0.3;
   }
